@@ -143,6 +143,23 @@ bool = isgzipBuffer( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-buffer`][@stdlib/assert/is-buffer]: test if a value is a Buffer object.
+-   [`@stdlib/assert/is-uint8array`][@stdlib/assert/is-uint8array]: test if a value is a Uint8Array.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -203,6 +220,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
 
 [@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-buffer]: https://github.com/stdlib-js/assert-is-buffer
+
+[@stdlib/assert/is-uint8array]: https://github.com/stdlib-js/assert-is-uint8array
+
+<!-- </related-links> -->
 
 </section>
 
