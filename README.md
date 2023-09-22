@@ -18,44 +18,47 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # isgzipBuffer
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Test if a value is a [gzip][gzip-rfc-1952] buffer.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-gzip-buffer
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-isgzipBuffer = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var isgzipBuffer = require( 'path/to/vendor/umd/assert-is-gzip-buffer/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.isgzipBuffer;
-})();
-</script>
+var isgzipBuffer = require( '@stdlib/assert-is-gzip-buffer' );
 ```
 
 #### isgzipBuffer( value )
@@ -98,22 +101,17 @@ bool = isgzipBuffer( [] );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int16@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8c@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var Float32Array = require( '@stdlib/array-float32' );
+var Float64Array = require( '@stdlib/array-float64' );
+var Int8Array = require( '@stdlib/array-int8' );
+var Int16Array = require( '@stdlib/array-int16' );
+var Int32Array = require( '@stdlib/array-int32' );
+var Uint8Array = require( '@stdlib/array-uint8' );
+var Uint8ClampedArray = require( '@stdlib/array-uint8c' );
+var Uint16Array = require( '@stdlib/array-uint16' );
+var Uint32Array = require( '@stdlib/array-uint32' );
+var isgzipBuffer = require( '@stdlib/assert-is-gzip-buffer' );
 
 var buf = new Uint8Array( 20 );
 buf[ 0 ] = 31;  // 0x1f => magic number
@@ -158,11 +156,6 @@ bool = isgzipBuffer( {} );
 
 bool = isgzipBuffer( null );
 // returns false
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -223,8 +216,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/assert-is-gzip-buffer.svg
 [npm-url]: https://npmjs.org/package/@stdlib/assert-is-gzip-buffer
 
-[test-image]: https://github.com/stdlib-js/assert-is-gzip-buffer/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/assert-is-gzip-buffer/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/assert-is-gzip-buffer/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/assert-is-gzip-buffer/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-is-gzip-buffer/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/assert-is-gzip-buffer?branch=main
@@ -255,15 +248,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [gzip-rfc-1952]: https://tools.ietf.org/html/rfc1952
 
-[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor/tree/umd
+[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
 
-[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8/tree/umd
+[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-buffer]: https://github.com/stdlib-js/assert-is-buffer/tree/umd
+[@stdlib/assert/is-buffer]: https://github.com/stdlib-js/assert-is-buffer
 
-[@stdlib/assert/is-uint8array]: https://github.com/stdlib-js/assert-is-uint8array/tree/umd
+[@stdlib/assert/is-uint8array]: https://github.com/stdlib-js/assert-is-uint8array
 
 <!-- </related-links> -->
 
