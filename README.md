@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+isgzipBuffer = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-gzip-buffer/tags). For example,
+
+```javascript
 isgzipBuffer = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@v0.1.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var isgzipBuffer = require( 'path/to/vendor/umd/assert-is-gzip-buffer/index.js' 
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -122,7 +127,7 @@ bool = isgzipBuffer( [] );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8c@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
