@@ -36,7 +36,7 @@ var isgzipBuffer = require( './../../dist' );
 
 // FIXTURES //
 
-var DATA = require( './../..xtures/data.json' );
+var DATA = require( './../fixtures/data.json' );
 
 
 // TESTS //
