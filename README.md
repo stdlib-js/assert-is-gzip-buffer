@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isgzipBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@esm/index.mjs';
+import isgzipBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@v0.2.0-esm/index.mjs';
 ```
 
 #### isgzipBuffer( value )
@@ -100,7 +100,7 @@ import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/in
 import Uint8ClampedArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8c@esm/index.mjs';
 import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@esm/index.mjs';
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@esm/index.mjs';
-import isgzipBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@esm/index.mjs';
+import isgzipBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@v0.2.0-esm/index.mjs';
 
 var buf = new Uint8Array( 20 );
 buf[ 0 ] = 31;  // 0x1f => magic number
