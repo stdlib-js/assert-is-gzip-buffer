@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isgzipBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@deno/mod.js';
+import isgzipBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@v0.2.2-deno/mod.js';
 ```
 
 #### isgzipBuffer( value )
@@ -95,7 +95,7 @@ import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@deno/m
 import Uint8ClampedArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8c@deno/mod.js';
 import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@deno/mod.js';
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@deno/mod.js';
-import isgzipBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@deno/mod.js';
+import isgzipBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@v0.2.2-deno/mod.js';
 
 var buf = new Uint8Array( 20 );
 buf[ 0 ] = 31;  // 0x1f => magic number
