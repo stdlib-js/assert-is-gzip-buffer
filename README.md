@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isgzipBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-gzip-buffer/tags). For example,
+
+```javascript
 import isgzipBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@v0.2.3-deno/mod.js';
 ```
 
@@ -95,7 +100,7 @@ import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@deno/m
 import Uint8ClampedArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8c@deno/mod.js';
 import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@deno/mod.js';
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@deno/mod.js';
-import isgzipBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@v0.2.3-deno/mod.js';
+import isgzipBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-gzip-buffer@deno/mod.js';
 
 var buf = new Uint8Array( 20 );
 buf[ 0 ] = 31;  // 0x1f => magic number
